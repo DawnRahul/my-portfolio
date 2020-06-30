@@ -1,0 +1,360 @@
+
+body {
+margin: 0px;
+}
+footer {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 180px;
+
+}
+footer h2 {
+  margin: 0px auto;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-size: 60px;
+}
+footer p {
+font-family: 'Montserrat', sans-serif;
+color: white;
+font-size: 20px;
+font-style: italic;
+font-weight: 100;
+color: #b71c1c;
+}
+
+#contact {
+  background-color: #0c2461;
+  height: auto;
+  width: 100%;
+}
+
+#my-name {
+  color: black;
+  text-shadow: 4px 4px 6px rgba(56,189,252,0.9);
+}
+#navbar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+  text-align: right;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(0, 96, 100,0.4);
+}
+#navbar a{
+  text-decoration: none;
+  color: white;
+  padding: 30px 40px;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  transition: background-color 0.7s;
+}
+#navbar a:hover {
+  background-color: rgba(0, 96, 100,1.0);
+}
+#profession {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+}
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(90deg, black, rgba(32,74,252,0.8)),
+   url("../images/coding.jpg"); /* ../ to go back of the current folder */
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#welcome-section h1 {
+
+    font-size: 102px;
+    text-shadow: 4px 4px 6px black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.contact-links {
+  margin-top: 100px;
+
+}
+.contact-links a {
+  position: relative;
+  top: 0px;
+  transition: top 0.6s;
+}
+.contact-links a:hover {
+  top: 14px;
+  text-shadow: 2px 2px 6px;
+}
+.contact-links a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.contact-links img{
+  height: 20px;
+  width:auto;
+  margin-right:6px;
+}
+.panda-div img {
+  padding-top: 40px;
+  height:240px;
+  width:auto;
+}
+.project-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+#projects {
+  background-color: rgba(21,100,129,0.5);
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+#projects h2 {
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+  padding: 40px 0px 10px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #3d3d3d;
+  text-shadow: 2px 2px 4px black;
+  text-decoration: none;
+  border-bottom: 2px solid #3d3d3d;
+}
+.projects-heading-div {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.project {
+  width: 40%;
+  height: 340px;
+  min-width: 300px;
+  margin: 60px auto;
+  background-color: white;
+  box-shadow: 2px 6px 8px black;
+  position: relative;
+  bottom: 0px;
+  transition: bottom 0.6s;
+}
+.project:hover {
+  width: 40%;
+  height: 340px;
+  position: relative;
+  bottom: 20px;
+}
+.project a {
+  text-decoration: none;
+}
+.project-img {
+  width: 100%;
+  height: 270px;
+}
+.project-title {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(180,0,0);
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+.project-title:hover {
+  background-color: #eb2f06;
+}
+
+
+.show-all-btn-div {
+  text-align: center;
+}
+ #profile-link {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#profile-link button {
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 4px 10px;
+  background-color: rgb(180,0,0);
+  border-width: 0px;
+  border-radius: 6px;
+  padding: 14px 18px;
+  --button-span: 2px;
+}
+#profile-link button:hover {
+  --button-span: 8px;
+  background-color: #eb2f06;
+}
+#profile-link span {
+  position: relative;
+  left: var(--button-span);
+  font-size: 24px;
+  font-weight: 600;
+  transition: left 0.8s;
+}
+
+/* *********************************************************************************************** */
+/* *************************************** MEDIA QUERY ***************************************** */
+/* ************************************************************************************************ */
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@media screen and (max-width: 980px) {
+
+  footer h2 {
+    font-size: 50px;
+  }
+  .project-container {
+    width: 90%;
+    justify-content:space-between;
+  }
+
+}
+
+
+
+@media screen and (max-width: 780px ) and (min-width: 682px)   {
+
+  footer h2 {
+    font-size: 46px;
+  }
+  .project-container {
+    justify-content:space-between;
+    width: 98%;
+
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 681px) {
+
+  footer h2 {
+    font-size: 46px;
+  }
+  #navbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 96, 100,0.4);
+  }
+  #navbar a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0px;;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.7s;
+  }
+  #profession {
+    font-size: 21px;
+  }
+  #welcome-section h1 {
+
+      font-size: 52px;
+  .contact-links {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-links a {
+    position: relative;
+    top: 0px;
+    transition: none;
+  }
+  .contact-links a:hover {
+    top: 0px;
+    text-shadow: none;
+  }
+  .contact-links a{
+    font-size: 14px;
+    text-align: left;
+    width: 100px;
+    padding: 8px 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .contact-links img{
+    height: 10px;
+    width:auto;
+    margin-right:auto;
+    margin-left: 4px;
+    margin-right: 6px;
+  }
+  .panda-div img {
+    padding-top: 20px;
+    height:180px;
+    width:auto;
+  }
+  .project-container {
+    justify-content:space-between;
+    width: 90%;
+  }
+  .project {
+    width: 80%;
+    height: 340px;
+    min-width: 280px;
+    box-shadow: 2px 6px 8px black;
+    position: relative;
+    bottom: 0px;
+    transition: bottom 0.6s;
+  }
+  .project:hover {
+    width: 84%;
+    height: 340px;
+    position: relative;
+    bottom: 20px;
+  }
+
+}
