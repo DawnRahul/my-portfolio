@@ -313,7 +313,8 @@ color: #b71c1c;
     color: white;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-    transition: background-color 0.7s;
+    transition: none;
+    background-color: rgba(0, 96, 100,0.9);
   }
   #profession {
     font-size: 21px;
