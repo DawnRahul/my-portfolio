@@ -1,4 +1,4 @@
-
+/* *********************************** TAG SELECTOR *************************************/
 body {
 margin: 0px;
 }
@@ -24,6 +24,8 @@ font-style: italic;
 font-weight: 100;
 color: #b71c1c;
 }
+
+/* *********************************** ID SELECTOR *************************************/
 
 #contact {
   background-color: #0c2461;
@@ -68,6 +70,52 @@ color: #b71c1c;
   text-shadow: 2px 2px 4px black;
   text-align: center;
 }
+
+#projects {
+  background-color: rgba(21,100,129,0.5);
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+#projects h2 {
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+  padding: 40px 0px 10px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #3d3d3d;
+  text-shadow: 2px 2px 4px black;
+  text-decoration: none;
+  border-bottom: 2px solid #3d3d3d;
+}
+#profile-link {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#profile-link button {
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 4px 10px;
+  background-color: rgb(180,0,0);
+  border-width: 0px;
+  border-radius: 6px;
+  padding: 14px 18px;
+  --button-span: 2px;
+}
+#profile-link button:hover {
+  --button-span: 8px;
+  background-color: #eb2f06;
+}
+#profile-link span {
+  position: relative;
+  left: var(--button-span);
+  font-size: 24px;
+  font-weight: 600;
+  transition: left 0.8s;
+}
 #welcome-section {
   height: 100vh;
   width: 100%;
@@ -89,6 +137,8 @@ color: #b71c1c;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
 }
+
+/* *********************************** CLASS SELECTOR *************************************/
 
 .contact-links {
   margin-top: 100px;
@@ -135,24 +185,6 @@ color: #b71c1c;
   justify-content:space-between;
 }
 
-#projects {
-  background-color: rgba(21,100,129,0.5);
-  width: 100%;
-  height: auto;
-  padding-bottom: 100px;
-}
-#projects h2 {
-  display: inline-block;
-  margin: 0px auto;
-  text-align: center;
-  padding: 40px 0px 10px 0px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  color: #3d3d3d;
-  text-shadow: 2px 2px 4px black;
-  text-decoration: none;
-  border-bottom: 2px solid #3d3d3d;
-}
 .projects-heading-div {
   text-align: center;
   padding-bottom: 30px;
@@ -203,33 +235,7 @@ color: #b71c1c;
 .show-all-btn-div {
   text-align: center;
 }
- #profile-link {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-#profile-link button {
-  color: white;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  padding: 4px 10px;
-  background-color: rgb(180,0,0);
-  border-width: 0px;
-  border-radius: 6px;
-  padding: 14px 18px;
-  --button-span: 2px;
-}
-#profile-link button:hover {
-  --button-span: 8px;
-  background-color: #eb2f06;
-}
-#profile-link span {
-  position: relative;
-  left: var(--button-span);
-  font-size: 24px;
-  font-weight: 600;
-  transition: left 0.8s;
-}
+
 
 /* *********************************************************************************************** */
 /* *************************************** MEDIA QUERY ***************************************** */
@@ -241,10 +247,15 @@ color: #b71c1c;
 }
 
 @media screen and (max-width: 980px) {
+  
+  /* *********************************** TAG SELECTOR *************************************/
 
   footer h2 {
     font-size: 50px;
   }
+  
+  /* *********************************** CLASS SELECTOR *************************************/
+  
   .project-container {
     width: 90%;
     justify-content:space-between;
@@ -256,9 +267,13 @@ color: #b71c1c;
 
 @media screen and (max-width: 780px ) and (min-width: 682px)   {
 
+    /* *********************************** TAG SELECTOR *************************************/
   footer h2 {
     font-size: 46px;
   }
+  
+  
+  /* *********************************** CLASS SELECTOR *************************************/
   .project-container {
     justify-content:space-between;
     width: 98%;
@@ -272,9 +287,13 @@ color: #b71c1c;
 
 @media screen and (max-width: 681px) {
 
+    /* *********************************** TAG SELECTOR *************************************/
   footer h2 {
     font-size: 46px;
   }
+  
+    /* *********************************** ID SELECTOR *************************************/
+  
   #navbar {
     position: fixed;
     top: 0px;
@@ -300,14 +319,17 @@ color: #b71c1c;
     font-size: 21px;
   }
   #welcome-section h1 {
-
-      font-size: 52px;
+    font-size: 52px;
+  }
   .contact-links {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+    
+      /* *********************************** CLASS SELECTOR *************************************/
+    
   .contact-links a {
     position: relative;
     top: 0px;
