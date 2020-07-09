@@ -207,9 +207,8 @@ color: #b71c1c;
   bottom: 20px;
 }
 .project a {
-  text-decoration: none;
-  /* below two lines are added because gap between text and image was appearing */ 
-  display: flex;
+  text-decoration: none; /* below two lines are added because gap between text and image was appearing */
+  display: flex;    
   flex-direction: column;
 }
 .project-img {
