@@ -208,7 +208,7 @@ color: #b71c1c;
 }
 .project a {
   text-decoration: none;
-  // below two lines are added because gap between text and image was appearing 
+  /* below two lines are added because gap between text and image was appearing */ 
   display: flex;
   flex-direction: column;
 }
