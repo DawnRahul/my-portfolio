@@ -318,6 +318,9 @@ color: #b71c1c;
     transition: none;
     background-color: transparent;
   }
+  #navbar a:visited{
+    background-color: transparent;
+  }
   #profession {
     font-size: 21px;
   }
