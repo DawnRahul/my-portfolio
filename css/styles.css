@@ -306,7 +306,7 @@ color: #b71c1c;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 96, 100,0.4);
+    background-color: rgba(41, 0, 100 , 0.53);
   }
   #navbar a{
     text-decoration: none;
@@ -316,7 +316,7 @@ color: #b71c1c;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     transition: none;
-    background-color: rgba(0, 96, 100,0.9);
+    background-color: transparent;
   }
   #profession {
     font-size: 21px;
