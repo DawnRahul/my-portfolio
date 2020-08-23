@@ -318,7 +318,7 @@ color: #b71c1c;
     transition: none;
     background-color: transparent;
   }
-  #navbar a:visited{
+  #navbar a:visited, #navbar a:active, #navbar a:hover{
     background-color: transparent;
   }
   #profession {
